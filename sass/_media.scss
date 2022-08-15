@@ -1,0 +1,195 @@
+@media screen and (max-width: 1300px) {
+  .team {
+    padding-bottom: 5rem;
+
+    .card-wrapper {
+      flex-direction: column;
+      margin-top: 4rem;
+    }
+
+    .card {
+      margin-bottom: 8rem;
+    }
+  }
+
+  .contact {
+    .contact-wrapper {
+      width: 90%;
+      height: 55rem;
+
+      .contact-right {
+        .contact-heading {
+          font-size: 5rem;
+          margin-bottom: 2rem;
+        }
+
+        .contact-form {
+          .input-group {
+            .field {
+              margin: 2rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//
+@media screen and (max-width: 1000px) {
+  .header {
+    .banner {
+      h1 {
+        font-size: 5rem;
+        line-height: 6rem;
+      }
+
+      p {
+        font-size: 2.5rem;
+      }
+
+      .banner-btn {
+        font-size: 1.5rem;
+        height: 4rem;
+        width: 18rem;
+      }
+    }
+  }
+
+  .about-us {
+    .services {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .service {
+      width: 40rem;
+      margin-bottom: 6rem;
+    }
+
+    .service-img-wrapper {
+      width: 40rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .contact {
+    .contact-wrapper {
+      .contact-left {
+        display: none;
+      }
+
+      .contact-right {
+        width: 100%;
+
+        .contact-form {
+          .input-group {
+            .field {
+              width: 55rem;
+            }
+
+            textarea {
+              max-width: 55rem;
+            }
+          }
+
+          .submit-btn {
+            width: 55rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 50%;
+
+      p {
+        order: 1;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+//
+@media screen and (max-width: 700px) {
+  .header {
+    .banner {
+      h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+
+      p {
+        font-size: 1.8rem;
+      }
+
+      .banner-btn {
+        font-size: 1.2rem;
+        width: 15rem;
+      }
+    }
+  }
+
+  .contact {
+    .contact-wrapper {
+      .contact-right {
+        .contact-form {
+          .input-group {
+            .field {
+              width: 33rem;
+            }
+
+            textarea {
+              max-width: 55rem;
+            }
+          }
+
+          .submit-btn {
+            width: 33rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+//
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  // .sidebar {
+  //   width: 100%;
+  //   right: -100rem;
+  // }
+
+  // .change {
+  //   .hamburger-menu {
+  //     right: 50rem;
+  //   }
+  // }
+
+  .about-us {
+    .service {
+      width: 30rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  .footer {
+    height: 15rem;
+  }
+}
